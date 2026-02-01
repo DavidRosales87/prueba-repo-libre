@@ -1,51 +1,20 @@
-# Proyecto de Azure Functions con Node.js (Modelo v4)
+# Introduction 
+TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
 
-Este proyecto es una muestra de cómo configurar y trabajar con Azure Functions utilizando Node.js y el modelo v4.
+# Getting Started
+TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
+1.	Installation process
+2.	Software dependencies
+3.	Latest releases
+4.	API references
 
-## Prerrequisitos
+# Build and Test
+TODO: Describe and show how to build your code and run the tests. 
 
-Antes de comenzar, asegúrate de tener instaladas las siguientes herramientas:
+# Contribute
+TODO: Explain how other users and developers can contribute to make your code better. 
 
-1. **Node.js** (versión 18)
-2. **npm** (que viene con Node.js)
-3. **Azure Functions Core Tools**:
-    ```bash
-    npm install -g azure-functions-core-tools@4 --unsafe-perm true
-    ```
-## Extensiones de Visual Studio Code
-
-Para una mejor experiencia de desarrollo, instala las siguientes extensiones en Visual Studio Code:
-
-- **Azure Functions**: Para crear, depurar, administrar y desplegar funciones de Azure.
-- **Azure Account**: Para autenticarte en tu cuenta de Azure directamente desde VS Code.
-- **Azure Tools**: Conjunto de herramientas de Azure, incluidas App Service, Cosmos DB, Functions, Storage, etc.
-
-## Creación de un Proyecto de Azure Functions
-
-1. Abre Visual Studio Code.
-2. Abre la paleta de comandos (Ctrl+Shift+P) y escribe `Azure Functions: Create New Project...`.
-3. Selecciona una carpeta para tu proyecto.
-4. Selecciona el lenguaje: **Node.js**.
-5. Selecciona un template de función (por ejemplo, **HTTP trigger**).
-6. Proporciona un nombre para la nueva función.
-7. Selecciona un nivel de autorización (por ejemplo, **Anonymus**).
-
-## Crear una Nueva Función
-
-Sigue los siguientes pasos para agregar una nueva función a tu proyecto de Azure Functions:
-
-1. Abre la paleta de comandos (Ctrl+Shift+P).
-2. Escribe y selecciona `Azure Functions: Create Function...`.
-3. Selecciona la carpeta de tu proyecto si es necesario.
-4. Elige un lenguaje para tu función: **JavaScript**.
-5. Selecciona un template de función (por ejemplo, **HTTP trigger**).
-6. Proporciona un nombre para la nueva función.
-7. Selecciona un nivel de autorización (por ejemplo, **Anonymus**).
-
-## Desarrollo y Pruebas Locales
-
-Para desarrollar y probar tus funciones localmente, usa el siguiente comando:
-
-```bash
-func start
-```
+If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
+- [ASP.NET Core](https://github.com/aspnet/Home)
+- [Visual Studio Code](https://github.com/Microsoft/vscode)
+- [Chakra Core](https://github.com/Microsoft/ChakraCore)
